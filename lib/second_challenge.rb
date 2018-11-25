@@ -12,7 +12,3 @@
     	array.flatten
    end
   #code your solution here!
-
-
-
-end
