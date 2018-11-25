@@ -13,6 +13,7 @@ def first_challenge
     }
   }
 
+delete_if :favorite_icecream_flavors == strawbery
   #your code here
 
 
