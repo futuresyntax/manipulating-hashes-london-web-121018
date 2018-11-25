@@ -13,7 +13,14 @@ def first_challenge
     }
   }
 
-delete_if :favorite_icecream_flavors == strawbery
+  contacts.each do |person, data|
+       data.each do |key, value|
+          if key == :favorite_icecream_flavors
+              value.delete_if do |flavor|
+              flavor == "strawberry"
+          end
+      end
+  end
   #your code here
 
 
